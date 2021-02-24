@@ -1,79 +1,89 @@
-<style>
-   .Subscribe{
-      background-color: rgb(200, 0, 0);
-      color: white;
-      border: 0cap;
-      /*having a fixed height and width will mean that if the text is extended it may eventually flow out of the button */
-      /*height: 36px;
-      width: 105px; */
-      padding: 10px;
-      padding-left: 16px;
-      padding-right: 16px;
-      border-radius: 3px;
-      cursor: pointer;
-      margin-right: 10px;
-      transition: opacity 0.3s;
-      margin-left: 10px;
-   }
+<!DOCTYPE html>
 
-   .Subscribe:hover{
-      opacity: 0.7;
-   }
-
-   .Subscribe:active{
-      opacity: 0.5;
-   }
-
-   .Join{
-      background-color: white;
-      color: rgb(26, 62, 152);
-      height: 36px;
-      width: 85px;
-      cursor: pointer;
-      border-color: rgb(26, 62, 152);
-      border-radius: 3px;
-      transition: background-color 0.3s, opacity 0.15s; /*do not add this property in hover or active because the effect is active only up until the active and hover*/
-   }
-
-   .Join:hover{
-      background-color: rgb(26, 62, 152);
-      color: white;
-   }
-
-   .Join:active{
-      opacity: 0.7;
-   }
-
-   .Tweet{
-      margin-left: 10px;
-      background-color: rgb(19, 149, 225);
-      color: white;
-      height: 36px;
-      width: 80px;
-      border-radius: 20px;
-      border: 0cap;
-      cursor: pointer;
-      font-weight: bold;
-      font-size: 15;
-      transition: box-shadow 0.3s;
-   }
-
-   .Tweet:hover{
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.30);
-   }
-   .Tweet:active{
-      opacity: 0.7;
-   }
-</style>
-
-<button class="Subscribe">
-   SUBSCRIBE
-</button>
-
-<button class="Join">
-   JOIN
-</button>
-
-<button class="Tweet">
-   Tweet
-</button>
+<html>
+   <head>
+      <title>
+         Buttons
+      </title>
+      <style>
+         .Subscribe{
+            background-color: rgb(200, 0, 0);
+            color: white;
+            border: 0cap;
+            /*having a fixed height and width will mean that if the text is extended it may eventually flow out of the button */
+            /*height: 36px;
+            width: 105px; */
+            padding: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-right: 10px;
+            transition: opacity 0.3s;
+            margin-left: 10px;
+         }
+      
+         .Subscribe:hover{
+            opacity: 0.7;
+         }
+      
+         .Subscribe:active{
+            opacity: 0.5;
+         }
+      
+         .Join{
+            background-color: white;
+            color: rgb(26, 62, 152);
+            height: 36px;
+            width: 85px;
+            cursor: pointer;
+            border-color: rgb(26, 62, 152);
+            border-radius: 3px;
+            transition: background-color 0.3s, opacity 0.15s; /*do not add this property in hover or active because the effect is active only up until the active and hover*/
+         }
+      
+         .Join:hover{
+            background-color: rgb(26, 62, 152);
+            color: white;
+         }
+      
+         .Join:active{
+            opacity: 0.7;
+         }
+      
+         .Tweet{
+            margin-left: 10px;
+            background-color: rgb(19, 149, 225);
+            color: white;
+            height: 36px;
+            width: 80px;
+            border-radius: 20px;
+            border: 0cap;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 15;
+            transition: box-shadow 0.3s;
+         }
+      
+         .Tweet:hover{
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.30);
+         }
+         .Tweet:active{
+            opacity: 0.7;
+         }
+      </style>
+   </head>
+   <body>
+      <button class="Subscribe">
+         SUBSCRIBE
+      </button>
+      
+      <button class="Join">
+         JOIN
+      </button>
+      
+      <button class="Tweet">
+         Tweet
+      </button> 
+   </body>
+</html>
